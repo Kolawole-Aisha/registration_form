@@ -1,18 +1,19 @@
-import 'package:flutter/material.dart';
 
-void main() {
+import 'package:flutter/material.dart';
+import 'Screens/Registration_Screen.dart';
+
+void main(){
   runApp(MyApp());
 }
-
-class MyApp extends StatelessWidget {
-
+class MyApp extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: "Registration Form",
-  );
+     title: "RegistrationForm",
+     home: RegistrationScreen(),
+    );
+    
   }
 }
-
 
 
